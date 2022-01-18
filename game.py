@@ -163,7 +163,7 @@ while running:
 
     if heartY <= 0:
         heartY = nganY
-        heart_state ="ready" 
+        heart_state ="redy" 
     if heart_state == "fire":
         heartY -= heartY_change
         heart(heartX,heartY)
