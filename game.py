@@ -5,7 +5,7 @@ from pygame import mixer
 
 pygame.init()
 
-FPS = 60
+FPS = 50
 fpsclock = pygame.time.Clock()
 
 screen = pygame.display.set_mode((800,600))
